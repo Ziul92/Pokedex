@@ -4,13 +4,22 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/css/reset.css">
+      <link rel="stylesheet" href="/css/style.css">
+      <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
       <title>Pokédex</title>
   </head>
   <body>
-    <section data-pokemon>
-      
+    <section class="card" data-pokemon>
+      <img class="card__imagem" src="#" alt="Aqui vai ficar a imagem do PKM">
+      <h1 class="card__pokemon"><span class="card__nome"></span></h1>
+      <div class="card__tipos">
+        <p class="card__tipos--primeiro">TIPO 1</p>
+        <p class="card__tipos--segundo">TIPO 2</p>
+      </div>
     </section>
       
   </body>
     <script src="/js/main.js"></script>
+    <script src="/js/imprimePokemon.js"></script>
 </html>
