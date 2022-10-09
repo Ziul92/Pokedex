@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  height: 40vw;
+  width: 30vw;
+  border-radius: 20px;
+  border: 1px dashed red;
+  font-family: "Pokemon Solid", sans-serif;
+  flex-direction: column;
+  letter-spacing: 4px;
+}
+.card__imagem {
+  width: 35%;
+  margin: 10px;
+  border: 1px solid;
+}
+.card__pokemon::first-letter {
+  text-transform: uppercase;
+}
+.card__numero {
+  margin: 20px;
+}
+.card__tipos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__tipos--primeiro {
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 5px;
+  color: red;
+}
+.card__tipos--primeiro::first-letter {
+  text-transform: uppercase;
+}
+.card__tipos--segundo {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 5px;
+  color: blue;
+}
+.card__tipos--segundo::first-letter {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
