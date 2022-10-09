@@ -12,7 +12,12 @@ $fonte-pokemon: 'Pokemon Solid', sans-serif;
   line-height: $height;
 }
 
-body {
+header {
+  @include flex(center);
+  margin-top: 5px
+}
+
+main {
   @include flex(center);
   width: 100vw;
   height: 100vh;
@@ -32,6 +37,7 @@ body {
   &__imagem {
     width: 35%;
     margin: 10px;
+    padding: 20px;
     border: 1px solid ;
   }  
 

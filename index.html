@@ -10,15 +10,24 @@
       <title>Pokédex</title>
   </head>
   <body>
-    <section class="card" data-pokemon>
-      <img class="card__imagem" src="#" alt="Aqui vai ficar a imagem do PKM">
-      <h1 class="card__pokemon"><span class="card__nome"></span></h1>
-      <div class="card__tipos">
-        <p class="card__tipos--primeiro">TIPO 1</p>
-        <p class="card__tipos--segundo">TIPO 2</p>
-      </div>
-    </section>
+    <header>
+      <section>
+        <input type="text" data-escolha>
+        <button data-botao>Qual o Pokémon?</button>
+      </section>
+    </header>
       
+    <main>
+      <section class="card" data-pokemon>
+        <img class="card__imagem" src="http://www.pokemongobrasil.com/wp-content/uploads/2016/08/pokebola-go.png" alt="Aqui vai ficar a imagem do PKM">
+        <h1 class="card__pokemon">Pokémon Name</h1>
+        <h2 class="card__numero">#</h1>
+        <div class="card__tipos">
+          <p class="card__tipos--primeiro">TIPO 1</p>
+          <p class="card__tipos--segundo">TIPO 2</p>
+        </div>
+      </section>
+    </main>
   </body>
     <script src="/js/main.js"></script>
     <script src="/js/imprimePokemon.js"></script>

@@ -1,10 +1,15 @@
 let pokemons = []
-let APIPokedex = `https://pokeapi.co/api/v2/pokemon/1`
+let escolha = document.querySelector("[data-escolha]")
+let botao = document.querySelector("[data-botao]")
 
-requisicaoAPI()
 
-async function requisicaoAPI() {
-  const resposta = await fetch(APIPokedex)
+async function requisicaoAPI(pokemon) {
+  const resposta = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
   pokemons = await resposta.json()
   fazAparecerOPokemon(pokemons)
 }
+
+
+botao.addEventListener("click", () => {
+  requisicaoAPI(escolha.value)
+})

@@ -1,4 +1,11 @@
-body {
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +31,7 @@ body {
 .card__imagem {
   width: 35%;
   margin: 10px;
+  padding: 20px;
   border: 1px solid;
 }
 .card__pokemon::first-letter {
