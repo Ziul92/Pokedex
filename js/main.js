@@ -12,4 +12,5 @@ async function requisicaoAPI(pokemon) {
 
 botao.addEventListener("click", () => {
   requisicaoAPI(escolha.value)
+  escolha.focus()
 })

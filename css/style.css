@@ -45,23 +45,14 @@ main {
   justify-content: space-between;
   align-items: center;
 }
-.card__tipos--primeiro {
+.card__tipos--estilo {
   margin-right: 10px;
   border: 2px solid black;
   border-radius: 10px;
   padding: 10px 5px;
   color: red;
 }
-.card__tipos--primeiro::first-letter {
-  text-transform: uppercase;
-}
-.card__tipos--segundo {
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 10px 5px;
-  color: blue;
-}
-.card__tipos--segundo::first-letter {
+.card__tipos--estilo::first-letter {
   text-transform: uppercase;
 }
 

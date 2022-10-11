@@ -14,7 +14,8 @@ $fonte-pokemon: 'Pokemon Solid', sans-serif;
 
 header {
   @include flex(center);
-  margin-top: 5px
+  margin-top: 5px;
+  
 }
 
 main {
@@ -54,24 +55,13 @@ main {
   &__tipos {
     @include flex(space-between);
 
-    &--primeiro {
+    &--estilo {
       margin-right: 10px;
       border: 2px solid black;
       border-radius: 10px;
       padding: 10px 5px;
       color: red;
       
-      &::first-letter {
-        text-transform: uppercase;
-      }
-    }
-
-    &--segundo {
-      border: 2px solid black;
-      border-radius: 10px;
-      padding: 10px 5px;
-      color: blue;
-
       &::first-letter {
         text-transform: uppercase;
       }
